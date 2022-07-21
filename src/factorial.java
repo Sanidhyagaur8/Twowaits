@@ -11,7 +11,8 @@ class factorial{
         int n=sc.nextInt();
         for (int i=1;i<=n;i++){
             fact*=i;
-            System.out.println(fact);
+
         }
+        System.out.println("Factorial of "+n+" is "+fact);
     }
 }
